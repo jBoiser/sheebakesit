@@ -12,6 +12,7 @@
         <a href="#" class="sidebar-brand" onclick="spa.showPage('dashboard'); return false;">
             <img src="{{ asset('storage/footers/logo1.png') }}" class="sidebar-logo-img">
             <span>Shee' BakesIt</span>
+            <span>Test from local via git</span>
         </a>
 
         <hr class="sidebar-divider">
