@@ -1,0 +1,92 @@
+:root {
+    --dark-pink: #d1004a;
+    --light-pink: #fff0f5;
+    --primary-text: #333333;
+    --satisfy-font: 'Satisfy', cursive;
+    --poppins-font: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--poppins-font);
+    background-color: #ff8fa3 !important; /* FIX: Darker pink */
+    margin: 0;
+}
+
+/* Loader */
+#page-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff0f5;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity .5s ease-out;
+}
+
+#page-loader.fade-out {
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+}
+
+/* Loader logo */
+.loader-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    border-radius: 50%;
+    background: white;
+    padding: 5px;
+}
+
+/* Pulse effect */
+.pulse-anim {
+    animation: pulse-custom 1.5s infinite;
+}
+
+@keyframes pulse-custom {
+    0% { transform: scale(1); }
+    70% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Centering */
+.login-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Login Container */
+.login-container {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 15px;
+    max-width: 420px;
+    width: 90%;
+    border-top: 5px solid var(--dark-pink);
+}
+
+/* Logo size FIX */
+.login-page-logo {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+/* Fix invisible button */
+.btn-primary-custom {
+    background-color: var(--dark-pink) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px;
+    display: block;
+}

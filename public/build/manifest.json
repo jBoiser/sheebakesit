@@ -1,0 +1,116 @@
+{
+  "resources/css/cakes.css": {
+    "file": "assets/cakes-ClFFgSRV.css",
+    "src": "resources/css/cakes.css",
+    "isEntry": true,
+    "name": "cakes",
+    "names": [
+      "cakes.css"
+    ]
+  },
+  "resources/css/cookies.css": {
+    "file": "assets/cookies-BAh3akma.css",
+    "src": "resources/css/cookies.css",
+    "isEntry": true,
+    "name": "cookies",
+    "names": [
+      "cookies.css"
+    ]
+  },
+  "resources/css/dashboard.css": {
+    "file": "assets/dashboard-6hTFDP3J.css",
+    "src": "resources/css/dashboard.css",
+    "isEntry": true,
+    "name": "dashboard",
+    "names": [
+      "dashboard.css"
+    ]
+  },
+  "resources/css/gallery.css": {
+    "file": "assets/gallery-D0GOHp3e.css",
+    "src": "resources/css/gallery.css",
+    "isEntry": true,
+    "name": "gallery",
+    "names": [
+      "gallery.css"
+    ]
+  },
+  "resources/css/gallerysection.css": {
+    "file": "assets/gallerysection-Bwe9-MNY.css",
+    "src": "resources/css/gallerysection.css",
+    "isEntry": true,
+    "name": "gallerysection",
+    "names": [
+      "gallerysection.css"
+    ]
+  },
+  "resources/css/login.css": {
+    "file": "assets/login-vuTx45Tj.css",
+    "src": "resources/css/login.css",
+    "isEntry": true,
+    "name": "login",
+    "names": [
+      "login.css"
+    ]
+  },
+  "resources/css/orders.css": {
+    "file": "assets/orders-CMY5ycPQ.css",
+    "src": "resources/css/orders.css",
+    "isEntry": true,
+    "name": "orders",
+    "names": [
+      "orders.css"
+    ]
+  },
+  "resources/css/style.css": {
+    "file": "assets/style-BiibT0eP.css",
+    "src": "resources/css/style.css",
+    "isEntry": true,
+    "name": "style",
+    "names": [
+      "style.css"
+    ]
+  },
+  "resources/js/cakes.js": {
+    "file": "assets/cakes-XISgRAb2.js",
+    "name": "cakes",
+    "src": "resources/js/cakes.js",
+    "isEntry": true
+  },
+  "resources/js/cookies.js": {
+    "file": "assets/cookies-Bxp8YHrB.js",
+    "name": "cookies",
+    "src": "resources/js/cookies.js",
+    "isEntry": true
+  },
+  "resources/js/dashboard.js": {
+    "file": "assets/dashboard-rwC_Anx0.js",
+    "name": "dashboard",
+    "src": "resources/js/dashboard.js",
+    "isEntry": true
+  },
+  "resources/js/gallery.js": {
+    "file": "assets/gallery-BtHPShzm.js",
+    "name": "gallery",
+    "src": "resources/js/gallery.js",
+    "isEntry": true
+  },
+  "resources/js/gallerysection.js": {
+    "file": "assets/gallerysection-D4jVNZkd.js",
+    "name": "gallerysection",
+    "src": "resources/js/gallerysection.js",
+    "isEntry": true
+  },
+  "resources/js/orders.js": {
+    "file": "assets/orders-dFBgRAib.js",
+    "name": "orders",
+    "src": "resources/js/orders.js",
+    "isEntry": true
+  },
+  "resources/js/script.js": {
+    "file": "assets/script-CoSrrS0r.js",
+    "name": "script",
+    "src": "resources/js/script.js",
+    "isEntry": true
+  }
+}

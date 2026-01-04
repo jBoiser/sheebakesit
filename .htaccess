@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteCond %{HTTP_HOST} ^shee\.sheebakesit\.com$ [NC]
+    RewriteRule ^ - [L,R=410]
+
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    RewriteCond %{HTTP_HOST} !^www\.sheebakesit\.com$ [NC]
+    RewriteRule ^(.*)$ https://www.sheebakesit.com/$1 [L,R=301]
+
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
